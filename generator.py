@@ -7,10 +7,10 @@ from itertools import cycle
 import base64
 from random import randint
 
-N = input("How many tokens : ")
+N = input("How many tokens :10 ")
 count = 0
 current_path = os.path.dirname(os.path.realpath(__file__))
-url = "https://discordapp.com/api/v6/users/@me/library"
+url = "https://discord.com/channels/856400588401278987/862547750280757268"
 
 while(int(count) < int(N)):
     tokens = []
